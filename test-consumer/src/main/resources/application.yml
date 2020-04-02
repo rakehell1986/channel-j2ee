@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: consumer-a
+
+server:
+    port: 8061
+
+eureka:
+    instance:
+        #hostname: consumer-a
+        prefer-ip-address: true
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url.defaultZone: http://miaoweiwei:Aa888888@localhost:8761/eureka/
+
+#eureka.instance.status-page-url=http://${spring.application.name}:${server.port}/actuator/info

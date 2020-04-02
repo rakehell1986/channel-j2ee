@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: channel-eureka-center
+  security:
+      user:
+        name: miaoweiwei
+        password: Aa888888
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
