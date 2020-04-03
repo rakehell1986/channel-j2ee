@@ -1,12 +1,12 @@
 spring:
   application:
-    name: channel-eureka-center-master
+    name: channel-eureka
   security:
       user:
         name: miaoweiwei
         password: Aa888888
 server:
-  port: 8761
+  port: 8762
 
 eureka:
   instance:
@@ -15,3 +15,5 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://miaoweiwei:Aa888888@localhost:8761/eureka/

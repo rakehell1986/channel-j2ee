@@ -1,6 +1,6 @@
 spring:
   application:
-    name: channel-eureka-center-master
+    name: channel-eureka
   security:
       user:
         name: miaoweiwei
@@ -15,3 +15,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://miaoweiwei:Aa888888@localhost:8762/eureka/
+
