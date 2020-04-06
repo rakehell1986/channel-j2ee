@@ -1,4 +1,4 @@
-package com.oc.channel.configuration;
+package com.oc.channel.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
