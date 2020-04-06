@@ -19,8 +19,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.oc.channel</groupId>
+            <artifactId>channel-commons</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
