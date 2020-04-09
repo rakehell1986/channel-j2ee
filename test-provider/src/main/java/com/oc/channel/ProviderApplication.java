@@ -13,7 +13,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication(scanBasePackages = {"com.oc.channel"})
 @EnableEurekaClient
-@EnableAspectJAutoProxy
 public class ProviderApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
